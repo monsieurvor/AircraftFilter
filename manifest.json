@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Google Flights Aircraft Filter",
+    "version": "1.0",
+    "description": "Adds aircraft manufacturer filtering to Google Flights",
+    "permissions": [
+      "webRequest"
+    ],
+    "host_permissions": [
+      "https://www.google.com/travel/flights/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/travel/flights/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
