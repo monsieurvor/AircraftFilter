@@ -17,7 +17,7 @@ A browser extension that adds aircraft manufacturer filtering capabilities to Go
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/google-flights-aircraft-filter.git
+   git clone https://github.com/monsieurvor/AircraftFilter.git
    ```
 
 2. Open your browser's extension management page:
